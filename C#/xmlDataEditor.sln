@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleXsdEditor", "ExampleXsdEditor.csproj", "{4E793476-BDAD-48FD-8E75-AF70FCE07AD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75523E3A-C0BD-492F-975C-28D1808A1DE8} = {75523E3A-C0BD-492F-975C-28D1808A1DE8}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFC483BC-C89B-4BE1-98A2-19A3630B809E}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibXsdEditor", "LibXsdEditor\LibXsdEditor.csproj", "{75523E3A-C0BD-492F-975C-28D1808A1DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E793476-BDAD-48FD-8E75-AF70FCE07AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E793476-BDAD-48FD-8E75-AF70FCE07AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E793476-BDAD-48FD-8E75-AF70FCE07AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E793476-BDAD-48FD-8E75-AF70FCE07AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75523E3A-C0BD-492F-975C-28D1808A1DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75523E3A-C0BD-492F-975C-28D1808A1DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75523E3A-C0BD-492F-975C-28D1808A1DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75523E3A-C0BD-492F-975C-28D1808A1DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

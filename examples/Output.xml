@@ -1,0 +1,29 @@
+﻿<NewDataSet>
+  <purchaseOrder orderDate="26/01/2017">
+    <comment>Fast Delivery</comment>
+    <shipTo country="England">
+      <name>Bob</name>
+      <street>Bob's street</street>
+      <city>Bobville</city>
+      <state>Bobingtonshire</state>
+      <zip>BOB1</zip>
+    </shipTo>
+    <shipTo />
+    <billTo country="ACME Inc">
+      <name>Road Runner</name>
+      <street>Acme street</street>
+      <city>Acmeville</city>
+      <state>Americaville</state>
+      <zip>ACME2</zip>
+    </billTo>
+    <items>
+      <item partNum="00001">
+        <productName>Custom Sign</productName>
+        <quantity>1</quantity>
+        <USPrice>100</USPrice>
+        <comment>Should say "Bob's House"</comment>
+        <shipDate>27/01/2017</shipDate>
+      </item>
+    </items>
+  </purchaseOrder>
+</NewDataSet>
